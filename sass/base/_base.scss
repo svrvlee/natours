@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+  // this defines what 1 rem is
+  font-size: 62.5%;
+  /* we divide 10 by 16 since we want the font-root-size to be 10px */
+  /* divide the number of px you want by default font sizewhich is 16 */
+  /* font-size: 10px; making it px is bad! */
+  /* 1 rem equals 10px */
+  /* this is making a font-root-size */
+}
+
+body {
+  box-sizing: border-box;
+}

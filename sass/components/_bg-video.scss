@@ -1,0 +1,20 @@
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: .15;
+  overflow: hidden;
+
+  &__content {
+    height: 100%;
+    width: 100%;
+    // how to change original size of video to fit the whole section
+    object-fit: cover;
+    // works like background-size: cover; but object-fit can work w html 5 elements, 
+    // cover covers the section top to bottom,
+    // fill covers the section but doesn't maintain aspect ratio (changes video view)
+  }
+}
